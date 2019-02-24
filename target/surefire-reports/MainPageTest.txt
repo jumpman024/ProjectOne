@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: MainPageTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.063 sec <<< FAILURE! - in MainPageTest
+SaveButtonPresent(MainPageTest)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException
+
+SaveButtonPresent(MainPageTest)  Time elapsed: 0.009 sec  <<< ERROR!
+java.lang.NullPointerException
+
+navigateToHotelPage(MainPageTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+navigateToHotelPage(MainPageTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+NameFieldPresent(MainPageTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+
+NameFieldPresent(MainPageTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+
+DataSectionPresent(MainPageTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+
+DataSectionPresent(MainPageTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException
+
