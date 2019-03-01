@@ -62,7 +62,7 @@ public class HotelPage {
     @FindBy (xpath = "//span[@class='ui-message-error-detail']")
     private WebElement errorMessage;
 
-    @FindBy (id = "add_hotel:city_label")
+    @FindBy (id = "add_hotel:country")
     private WebElement city;
 
 
@@ -141,7 +141,7 @@ public class HotelPage {
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(countryValue));
-        value.selectByIndex(2);
+        value.selectByVisibleText("Ukraine");
         return this;
     }
 
@@ -155,7 +155,7 @@ public class HotelPage {
         wait.until(ExpectedConditions.elementToBeClickable(cityValue));
 
         Select value = new Select(cityValue);
-        value.selectByVisibleText("USA");
+        value.selectByIndex(1);
         return this;
     }
 
