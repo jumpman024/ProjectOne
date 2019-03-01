@@ -139,8 +139,8 @@ public class HotelPage {
     public HotelPage selectCountry(){
         Select value = new Select(countryValue);
 
-//        new WebDriverWait(driver, 15)
-//                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@title='Continue shopping']")));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(countryValue));
         value.selectByIndex(2);
         return this;
     }
