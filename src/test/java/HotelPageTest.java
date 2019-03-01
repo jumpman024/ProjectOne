@@ -1,57 +1,79 @@
-import org.junit.After;
-import org.openqa.selenium.By;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import pages.HotelPage;
-import pages.MainPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.concurrent.TimeUnit;
+import pages.NavigationMenu;
 
 
+public class HotelPageTest extends BaseTest {
 
+    private NavigationMenu mainPage;
+    private HotelPage hotelPage;
 
-public class HotelPageTest {
+    @BeforeMethod
+    public void startUp(){
 
-    private WebDriver driver;
+        mainPage = new NavigationMenu(driver);
+        hotelPage = new HotelPage(driver);
 
-    @Before
-    public void getWebDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getenv("CHROMEDRIVER"));
-        driver = new ChromeDriver();
-        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        driver.navigate().to("http://localhost:8080/article/faces/welcome.xhtml");
+        mainPage.clickArticle();
+        mainPage.clickNew();
+        mainPage.clickHotel();
     }
 
     @Test
     public void nameFieldDisplayed() {
-        MainPage mainPage = new MainPage(driver);
-        HotelPage hotelPage = new HotelPage(driver);
-
-        mainPage.clickArticle();
-        mainPage.clickNews();
-        mainPage.clickHotel();
+        //Verify that Name field is editable
         Boolean expectedNameField = hotelPage.nameSectionDisplayed();
-        Assert.assertTrue("The name is not present", expectedNameField);
+        Assert.assertTrue( expectedNameField);
 
-        String expectedName = hotelPage.nameFieldEditable();
-        String actualName = "Hayatt";
-        verifyNameSectionEditable(expectedName,actualName);
+        String expectedName = "Hayatt";
+        String actualName = hotelPage.nameFieldEditable();
+        Assert.assertEquals(actualName,expectedName);
 
     }
 
+    @Test
+    //Verify that Name field allows to input alphanumeric characters
+    public void isPossibleToInputAlphanumericCharacters(){
+        String expectedNameField = "1Name 2Name";
+        String actualNameField = hotelPage.clearAndTypeAlphanumericName(expectedNameField)
+                .getNameFieldValue();
+        Assert.assertEquals(actualNameField,expectedNameField);
 
-    @After
-    public void finish() {
-        driver.close();
+
     }
 
-    private void verifyNameSectionEditable(String expectedName,String actualName){
-        Assert.assertEquals(expectedName,actualName);
+    @Test
+    public void nameFieldIsNotEmpty(){
+        //Verify that it is not possible to save the empty Name field and a meaningful error message is displayed
+        boolean actualNameErrorDisplayed = hotelPage.clearNameField()
+                .clickSaveButton()
+                .errorMessageIsDisplayed();
+        Assert.assertTrue(actualNameErrorDisplayed);
+
+        String expectedNameErrorText = "Name: Validation Error: Value is required.";
+        String actualNameErrorText = hotelPage.getNameErrorText();
+        Assert.assertEquals(actualNameErrorText, expectedNameErrorText);
+
+    }
+
+    @Test
+    public void isPossibleToEnterValidNameField(){
+        //Verify that it is possible to save the valid name field
+        String dateOfConstruction = "10.10.19";
+        hotelPage.clickNameField()
+                .enterNameField()
+                .selectDate(dateOfConstruction)
+                .clickCitySelect()
+                .selectCountry()
+                .selectCity()
+                .typeShortDiscription()
+                .typeDiscription()
+                .clickSaveButton();
+
     }
 
 

@@ -1,23 +1,18 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MainPage {
+public class NavigationMenu {
 
     private WebDriver driver;
 
     private static final String MAIN_URL = "http://localhost:8080/article/faces/welcome.xhtml";
 
-    public MainPage(WebDriver driver){
+    public NavigationMenu(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
@@ -26,7 +21,7 @@ public class MainPage {
     private WebElement article;
 
     @FindBy (xpath = "//span[text()[contains(.,'New')]]")
-    private WebElement news;
+    private WebElement newButton;
 
     @FindBy (xpath = "//span[text()[contains(.,'View')]]")
     private WebElement view;
@@ -97,15 +92,15 @@ public class MainPage {
     @FindBy (xpath = "//button[@id='header_form:j_idt35']")
     private WebElement logOut;
 
-    public void clickArticle(){
+    public NavigationMenu clickArticle(){
         Actions actions = new Actions(driver);
         actions.moveToElement(article).build().perform();
-
+        return this;
     }
 
-    public void clickNews(){
+    public void clickNew(){
         Actions actions = new Actions(driver);
-        actions.moveToElement(news).build().perform();
+        actions.moveToElement(newButton).build().perform();
 
     }
 
