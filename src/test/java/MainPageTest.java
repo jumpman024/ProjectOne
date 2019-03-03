@@ -34,83 +34,31 @@ public class MainPageTest extends BaseTest{
 
 
 
-    @Test
-    public void navigateToHotelPage(){
-
-
-
-        hotelPage.hotelTabDisplayed();
-        VerifyThatHotelPageIsPresent("Register new Hotel");
-
-        hotelPage.dataSectionDisplayed();
-        VerifyThatDataSectionIsPresent("Data:");
-
-        hotelPage.SaveButtonDisplayed();
-        VerifyThatSaveButtonIsPresent("Save");
-        }
-
-        @Test
-        public void DataSectionPresent(){
-
-
-
-            hotelPage.dataSectionDisplayed();
-            VerifyThatDataSectionIsPresent("Data:");
-        }
-
-
-    @Test
-    public void SaveButtonPresent(){
-        NavigationMenu mainPage = new NavigationMenu(driver);
-        HotelPage hotelPage = new HotelPage(driver);
-
-        mainPage.clickArticle();
-        mainPage.clickNew();
-        mainPage.clickHotel();
-
-
-        hotelPage.SaveButtonDisplayed();
-        VerifyThatSaveButtonIsPresent("Save");
+    @Test(description = "Verify that user can open New Hotel page:")
+    public void registerHotelPageIsDisplayed() {
+        //Verify that Register new Hotel page is displayed when user selects Article->New->Hotel
+        String expectedHotelValue = "Register new Hotel";
+        String actualHotelValue = hotelPage.hotelTabDisplayed();
+        Assert.assertEquals(actualHotelValue,expectedHotelValue);
     }
 
     @Test
-    public void NameFieldPresent(){
-        NavigationMenu mainPage = new NavigationMenu(driver);
-        HotelPage hotelPage = new HotelPage(driver);
+    public void dataSectionIsDisplayed() {
+        //Verify that Data section is displayed on Register new Hotel
+        String expectedDataValue = "Data:";
+        String actualDataValue = hotelPage.dataSectionDisplayed();
+        Assert.assertEquals(actualDataValue,expectedDataValue);
+    }
 
-        mainPage.clickArticle();
-        mainPage.clickNew();
-        mainPage.clickHotel();
-
-
-        hotelPage.nameSectionDisplayed();
-        VerifyThatSaveButtonIsPresent("Save");
-
-
+    @Test
+    public void saveButtonIsDisplayed() {
+        //Verify that save button is displayed on Register new Hotel
+        String expectedButtonValue = "Save";
+        String actualDataValue = hotelPage.SaveButtonDisplayed();
+        Assert.assertEquals(actualDataValue,expectedButtonValue);
     }
 
 
-
-
-
-
-
-
-
-    private void VerifyThatHotelPageIsPresent(String expectedPage){
-        String actualPage = driver.findElement(By.xpath("//*[@id='title']/div/h2")).getText();
-        Assert.assertEquals("The page is not present",expectedPage,actualPage);
-    }
-
-    private void VerifyThatDataSectionIsPresent(String  expectedSection){
-        String actualSection = driver.findElement(By.xpath("//*[@id=add_hotel:j_idt40_header]/span")).getText();
-        Assert.assertEquals("Data Section is not present",expectedSection,actualSection);
-    }
-
-    private void VerifyThatSaveButtonIsPresent(String  expectedButton){
-        String actualButton = driver.findElement(By.xpath("//span[text()[contains(.,'Save')]]")).getText();
-        Assert.assertEquals("The Save Button is not present",expectedButton,actualButton);
-    }
 
 
 

@@ -3,15 +3,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import utils.*;
+
+
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    protected WebDriver driver;
+    public WebDriver driver;
+    private final Properties config = Config.loadProperties("test.properties");
 
-
-    @BeforeMethod(alwaysRun = true)
-    public void setUp() {
-        System.setProperty("webdriver.chrome.driver", System.getenv("CHROMEDRIVER"));
+    @BeforeMethod
+    public void setup(){
+        System.setProperty("webdriver.chrome.driver", config.getProperty("chromedriver"));
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -19,7 +24,7 @@ public class BaseTest {
     }
 
 
-//    @AfterMethod(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void closeDown() {
         driver.close();
     }

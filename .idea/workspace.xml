@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5503ea70-94d9-423a-91b8-f48226e3f711" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Config.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DiplomaProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HotelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HotelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MainPageTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MainPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HotelPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,24 +34,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1236">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="241">
+              <caret line="164" column="18" lean-forward="true" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2217#2218#0" expanded="true" />
-                <element signature="e#2258#2259#0" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2387#2388#0" expanded="true" />
-                <element signature="e#2430#2431#0" expanded="true" />
-                <element signature="e#2474#2475#0" expanded="true" />
-                <element signature="e#2520#2521#0" expanded="true" />
-                <element signature="e#2820#2821#0" expanded="true" />
-                <element signature="e#2869#2870#0" expanded="true" />
-                <element signature="e#2909#2910#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="e#3732#3733#0" expanded="true" />
+                <element signature="e#3773#3774#0" expanded="true" />
+                <element signature="e#3816#3817#0" expanded="true" />
+                <element signature="e#3860#3861#0" expanded="true" />
+                <element signature="e#3902#3903#0" expanded="true" />
+                <element signature="e#3945#3946#0" expanded="true" />
+                <element signature="e#3989#3990#0" expanded="true" />
+                <element signature="e#4035#4036#0" expanded="true" />
+                <element signature="e#4335#4336#0" expanded="true" />
+                <element signature="e#4384#4385#0" expanded="true" />
+                <element signature="e#4424#4425#0" expanded="true" />
+                <element signature="e#4469#4470#0" expanded="true" />
+                <element signature="e#6226#6227#0" expanded="true" />
+                <element signature="e#6278#6279#0" expanded="true" />
+                <element signature="e#6374#6375#0" expanded="true" />
+                <element signature="e#6412#6413#0" expanded="true" />
+                <element signature="e#6610#6611#0" expanded="true" />
+                <element signature="e#6663#6664#0" expanded="true" />
+                <element signature="e#7342#7343#0" expanded="true" />
+                <element signature="e#7405#7406#0" expanded="true" />
+                <element signature="e#7847#7848#0" expanded="true" />
+                <element signature="e#7874#7875#0" expanded="true" />
+                <element signature="e#8091#8092#0" expanded="true" />
+                <element signature="e#8133#8134#0" expanded="true" />
+                <element signature="e#8563#8564#0" expanded="true" />
+                <element signature="e#8608#8609#0" expanded="true" />
+                <element signature="e#9815#9816#0" expanded="true" />
+                <element signature="e#9856#9857#0" expanded="true" />
+                <element signature="e#10609#10610#0" expanded="true" />
+                <element signature="e#10654#10655#0" expanded="true" />
+                <element signature="e#10711#10712#0" expanded="true" />
+                <element signature="e#10760#10761#0" expanded="true" />
+                <element signature="e#11304#11305#0" expanded="true" />
+                <element signature="e#11342#11343#0" expanded="true" />
+                <element signature="e#11986#11987#0" expanded="true" />
+                <element signature="e#12043#12044#0" expanded="true" />
+                <element signature="e#12209#12210#0" expanded="true" />
+                <element signature="e#12255#12256#0" expanded="true" />
+                <element signature="e#12678#12679#0" expanded="true" />
+                <element signature="e#12742#12743#0" expanded="true" />
+                <element signature="e#12870#12871#0" expanded="true" />
+                <element signature="e#12908#12909#0" expanded="true" />
+                <element signature="e#13127#13128#0" expanded="true" />
+                <element signature="e#13173#13174#0" expanded="true" />
+                <element signature="e#13788#13789#0" expanded="true" />
+                <element signature="e#13833#13834#0" expanded="true" />
+                <element signature="e#13958#13959#0" expanded="true" />
+                <element signature="e#14000#14001#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="-450">
+              <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="299">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HotelPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+            <state relative-caret-position="1042">
+              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,38 +150,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/TestInvoker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="9150">
               <caret line="653" selection-start-line="653" selection-end-line="653" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/MethodRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret column="88" selection-start-column="88" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -125,8 +168,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="269">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,14 +208,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Config.java" />
-        <option value="$PROJECT_DIR$/test.properties" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/Config.java" />
+        <option value="$PROJECT_DIR$/test.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
         <option value="$PROJECT_DIR$/src/test/java/HotelPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HotelPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
       </list>
     </option>
   </component>
@@ -179,7 +238,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="x" value="722" />
+    <option name="width" value="718" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -188,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,6 +286,21 @@
               <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,17 +310,31 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551465369174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551634678658" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,91 +348,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HotelPageTest.isPossibleToEnterValidNameField">
-    <configuration name="HotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DiplomaProject" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelPageTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <envs>
-        <env name="CHROMEDRIVER" value="$PROJECT_DIR$/../automation1/chromedriver" />
-      </envs>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MainPageTest">
     <configuration name="HotelPageTest.isPossibleToEnterValidNameField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DiplomaProject" />
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelPageTest" />
       <option name="METHOD_NAME" value="isPossibleToEnterValidNameField" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <envs>
-        <env name="CHROMEDRIVER" value="$PROJECT_DIR$/../automation1/chromedriver" />
-      </envs>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelPageTest.nameFieldDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DiplomaProject" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelPageTest" />
-      <option name="METHOD_NAME" value="nameFieldDisplayed" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <envs>
-        <env name="CHROMEDRIVER" value="$PROJECT_DIR$/../automation1/chromedriver" />
-      </envs>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelPageTest.nameFieldIsNotEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DiplomaProject" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelPageTest" />
-      <option name="METHOD_NAME" value="nameFieldIsNotEmpty" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <envs>
-        <env name="CHROMEDRIVER" value="$PROJECT_DIR$/../automation1/chromedriver" />
-      </envs>
       <properties />
       <listeners />
       <method v="2">
@@ -351,19 +363,44 @@
     </configuration>
     <configuration name="MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DiplomaProject" />
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <envs>
-        <env name="CHROMEDRIVER" value="$PROJECT_DIR$/../automation1/chromedriver" />
-      </envs>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.dataSectionIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DiplomaProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="dataSectionIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.navigateToHotelPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DiplomaProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="navigateToHotelPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.registerHotelPageIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DiplomaProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="registerHotelPageIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -371,19 +408,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.HotelPageTest.nameFieldDisplayed" />
-      <item itemvalue="TestNG.HotelPageTest" />
-      <item itemvalue="TestNG.MainPageTest" />
-      <item itemvalue="TestNG.HotelPageTest.nameFieldIsNotEmpty" />
       <item itemvalue="TestNG.HotelPageTest.isPossibleToEnterValidNameField" />
+      <item itemvalue="TestNG.MainPageTest.navigateToHotelPage" />
+      <item itemvalue="TestNG.MainPageTest.registerHotelPageIsDisplayed" />
+      <item itemvalue="TestNG.MainPageTest.dataSectionIsDisplayed" />
+      <item itemvalue="TestNG.MainPageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HotelPageTest.isPossibleToEnterValidNameField" />
-        <item itemvalue="TestNG.HotelPageTest" />
-        <item itemvalue="TestNG.HotelPageTest.nameFieldIsNotEmpty" />
-        <item itemvalue="TestNG.HotelPageTest.nameFieldDisplayed" />
         <item itemvalue="TestNG.MainPageTest" />
+        <item itemvalue="TestNG.MainPageTest.dataSectionIsDisplayed" />
+        <item itemvalue="TestNG.MainPageTest.registerHotelPageIsDisplayed" />
+        <item itemvalue="TestNG.MainPageTest.navigateToHotelPage" />
+        <item itemvalue="TestNG.HotelPageTest.isPossibleToEnterValidNameField" />
       </list>
     </recent_temporary>
   </component>
@@ -401,42 +438,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 23m 06s.xml">
+    <history-entry file="HotelPageTest_isPossibleToSaveEmptyNote - 2019.03.03 at 19h 07m 54s.xml">
+      <configuration name="HotelPageTest.isPossibleToSaveEmptyNote" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HotelPageTest_isPossibleToSaveValidNotes - 2019.03.03 at 19h 09m 35s.xml">
+      <configuration name="HotelPageTest.isPossibleToSaveValidNotes" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HotelPageTest - 2019.03.03 at 19h 10m 49s.xml">
+      <configuration name="HotelPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HotelPageTest - 2019.03.03 at 19h 13m 35s.xml">
+      <configuration name="HotelPageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.03 at 19h 15m 39s.xml">
       <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 29m 47s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
+    <history-entry file="MainPageTest_navigateToHotelPage - 2019.03.03 at 19h 17m 03s.xml">
+      <configuration name="MainPageTest.navigateToHotelPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 40m 31s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
+    <history-entry file="MainPageTest_navigateToHotelPage - 2019.03.03 at 19h 28m 13s.xml">
+      <configuration name="MainPageTest.navigateToHotelPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 40m 57s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
+    <history-entry file="MainPageTest_navigateToHotelPage - 2019.03.03 at 19h 29m 22s.xml">
+      <configuration name="MainPageTest.navigateToHotelPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 43m 35s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
+    <history-entry file="MainPageTest_registerHotelPageIsDisplayed - 2019.03.03 at 19h 33m 25s.xml">
+      <configuration name="MainPageTest.registerHotelPageIsDisplayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 45m 14s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 18h 48m 37s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 19h 14m 42s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 19h 18m 02s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="HotelPageTest_isPossibleToEnterValidNameField - 2019.03.01 at 19h 22m 44s.xml">
-      <configuration name="HotelPageTest.isPossibleToEnterValidNameField" configurationId="TestNG" />
+    <history-entry file="MainPageTest_dataSectionIsDisplayed - 2019.03.03 at 19h 35m 47s.xml">
+      <configuration name="MainPageTest.dataSectionIsDisplayed" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="718" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2766272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,18 +481,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32950193" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39846742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32950193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
@@ -463,6 +500,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Objects.java">
@@ -476,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -517,10 +551,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/TestInvoker.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Config.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        <state relative-caret-position="435">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -531,37 +566,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Config.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/TestInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="9150">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret column="88" selection-start-column="88" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="-450">
+          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -570,8 +602,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="269">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HotelPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -580,35 +634,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1236">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        <state relative-caret-position="241">
+          <caret line="164" column="18" lean-forward="true" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2474#2475#0" expanded="true" />
-            <element signature="e#2520#2521#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2869#2870#0" expanded="true" />
-            <element signature="e#2909#2910#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
+            <element signature="e#3732#3733#0" expanded="true" />
+            <element signature="e#3773#3774#0" expanded="true" />
+            <element signature="e#3816#3817#0" expanded="true" />
+            <element signature="e#3860#3861#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#3945#3946#0" expanded="true" />
+            <element signature="e#3989#3990#0" expanded="true" />
+            <element signature="e#4035#4036#0" expanded="true" />
+            <element signature="e#4335#4336#0" expanded="true" />
+            <element signature="e#4384#4385#0" expanded="true" />
+            <element signature="e#4424#4425#0" expanded="true" />
+            <element signature="e#4469#4470#0" expanded="true" />
+            <element signature="e#6226#6227#0" expanded="true" />
+            <element signature="e#6278#6279#0" expanded="true" />
+            <element signature="e#6374#6375#0" expanded="true" />
+            <element signature="e#6412#6413#0" expanded="true" />
+            <element signature="e#6610#6611#0" expanded="true" />
+            <element signature="e#6663#6664#0" expanded="true" />
+            <element signature="e#7342#7343#0" expanded="true" />
+            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#7847#7848#0" expanded="true" />
+            <element signature="e#7874#7875#0" expanded="true" />
+            <element signature="e#8091#8092#0" expanded="true" />
+            <element signature="e#8133#8134#0" expanded="true" />
+            <element signature="e#8563#8564#0" expanded="true" />
+            <element signature="e#8608#8609#0" expanded="true" />
+            <element signature="e#9815#9816#0" expanded="true" />
+            <element signature="e#9856#9857#0" expanded="true" />
+            <element signature="e#10609#10610#0" expanded="true" />
+            <element signature="e#10654#10655#0" expanded="true" />
+            <element signature="e#10711#10712#0" expanded="true" />
+            <element signature="e#10760#10761#0" expanded="true" />
+            <element signature="e#11304#11305#0" expanded="true" />
+            <element signature="e#11342#11343#0" expanded="true" />
+            <element signature="e#11986#11987#0" expanded="true" />
+            <element signature="e#12043#12044#0" expanded="true" />
+            <element signature="e#12209#12210#0" expanded="true" />
+            <element signature="e#12255#12256#0" expanded="true" />
+            <element signature="e#12678#12679#0" expanded="true" />
+            <element signature="e#12742#12743#0" expanded="true" />
+            <element signature="e#12870#12871#0" expanded="true" />
+            <element signature="e#12908#12909#0" expanded="true" />
+            <element signature="e#13127#13128#0" expanded="true" />
+            <element signature="e#13173#13174#0" expanded="true" />
+            <element signature="e#13788#13789#0" expanded="true" />
+            <element signature="e#13833#13834#0" expanded="true" />
+            <element signature="e#13958#13959#0" expanded="true" />
+            <element signature="e#14000#14001#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HotelPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DiplomaProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
