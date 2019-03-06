@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="44" passed="42">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="111827" started-at="2019-03-06T20:53:43 EET" finished-at="2019-03-06T20:55:34 EET">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="111827" started-at="2019-03-06T20:53:43 EET" finished-at="2019-03-06T20:55:34 EET">
+      <class name="MainPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MainPageTest@23ceabc1]" name="setup" is-config="true" duration-ms="1457" started-at="2019-03-06T20:55:28 EET" finished-at="2019-03-06T20:55:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:MainPageTest@23ceabc1]" name="startUp" is-config="true" duration-ms="614" started-at="2019-03-06T20:55:29 EET" finished-at="2019-03-06T20:55:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dataSectionIsDisplayed()[pri:0, instance:MainPageTest@23ceabc1]" name="dataSectionIsDisplayed" duration-ms="35" started-at="2019-03-06T20:55:30 EET" finished-at="2019-03-06T20:55:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSectionIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:MainPageTest@23ceabc1]" name="closeDown" is-config="true" duration-ms="136" started-at="2019-03-06T20:55:30 EET" finished-at="2019-03-06T20:55:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MainPageTest@23ceabc1]" name="setup" is-config="true" duration-ms="1430" started-at="2019-03-06T20:55:30 EET" finished-at="2019-03-06T20:55:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:MainPageTest@23ceabc1]" name="startUp" is-config="true" duration-ms="622" started-at="2019-03-06T20:55:31 EET" finished-at="2019-03-06T20:55:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="registerHotelPageIsDisplayed()[pri:0, instance:MainPageTest@23ceabc1]" name="registerHotelPageIsDisplayed" duration-ms="38" started-at="2019-03-06T20:55:32 EET" description="Verify that user can open New Hotel page:" finished-at="2019-03-06T20:55:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerHotelPageIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:MainPageTest@23ceabc1]" name="closeDown" is-config="true" duration-ms="185" started-at="2019-03-06T20:55:32 EET" finished-at="2019-03-06T20:55:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MainPageTest@23ceabc1]" name="setup" is-config="true" duration-ms="1399" started-at="2019-03-06T20:55:32 EET" finished-at="2019-03-06T20:55:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:MainPageTest@23ceabc1]" name="startUp" is-config="true" duration-ms="611" started-at="2019-03-06T20:55:34 EET" finished-at="2019-03-06T20:55:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="saveButtonIsDisplayed()[pri:0, instance:MainPageTest@23ceabc1]" name="saveButtonIsDisplayed" duration-ms="34" started-at="2019-03-06T20:55:34 EET" finished-at="2019-03-06T20:55:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveButtonIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:MainPageTest@23ceabc1]" name="closeDown" is-config="true" duration-ms="176" started-at="2019-03-06T20:55:34 EET" finished-at="2019-03-06T20:55:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- MainPageTest -->
+      <class name="HotelPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="2770" started-at="2019-03-06T20:53:43 EET" finished-at="2019-03-06T20:53:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="723" started-at="2019-03-06T20:53:45 EET" finished-at="2019-03-06T20:53:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="cityFieldAsteriskIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="cityFieldAsteriskIsDisplayed" duration-ms="42" started-at="2019-03-06T20:53:46 EET" finished-at="2019-03-06T20:53:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityFieldAsteriskIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="151" started-at="2019-03-06T20:53:46 EET" finished-at="2019-03-06T20:53:46 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1466" started-at="2019-03-06T20:53:46 EET" finished-at="2019-03-06T20:53:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="589" started-at="2019-03-06T20:53:48 EET" finished-at="2019-03-06T20:53:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="cityFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="cityFieldIsDisplayed" duration-ms="32" started-at="2019-03-06T20:53:48 EET" description="Verify that user can add City of new hotel" finished-at="2019-03-06T20:53:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="136" started-at="2019-03-06T20:53:48 EET" finished-at="2019-03-06T20:53:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1621" started-at="2019-03-06T20:53:48 EET" finished-at="2019-03-06T20:53:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="649" started-at="2019-03-06T20:53:50 EET" finished-at="2019-03-06T20:53:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="FAIL" signature="cityFieldIsEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="cityFieldIsEditable" duration-ms="285" started-at="2019-03-06T20:53:51 EET" finished-at="2019-03-06T20:53:51 EET">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MacBook-Pro-Konstantin.local', ip: 'fe80:0:0:0:1c05:45ab:b777:ed96%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50051}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 934d11a44ad6e4338464ef5906224ae4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MacBook-Pro-Konstantin.local', ip: 'fe80:0:0:0:1c05:45ab:b777:ed96%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50051}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 934d11a44ad6e4338464ef5906224ae4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy7.click(Unknown Source)
+at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+at HotelPageTest.cityFieldIsEditable(HotelPageTest.java:253)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner.privateRun(TestRunner.java:763)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityFieldIsEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="177" started-at="2019-03-06T20:53:51 EET" finished-at="2019-03-06T20:53:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1558" started-at="2019-03-06T20:53:51 EET" finished-at="2019-03-06T20:53:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="647" started-at="2019-03-06T20:53:53 EET" finished-at="2019-03-06T20:53:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="countryFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="countryFieldIsDisplayed" duration-ms="34" started-at="2019-03-06T20:53:53 EET" finished-at="2019-03-06T20:53:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="139" started-at="2019-03-06T20:53:53 EET" finished-at="2019-03-06T20:53:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1515" started-at="2019-03-06T20:53:54 EET" finished-at="2019-03-06T20:53:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="620" started-at="2019-03-06T20:53:55 EET" finished-at="2019-03-06T20:53:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="countryFieldIsEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="countryFieldIsEditable" duration-ms="777" started-at="2019-03-06T20:53:56 EET" finished-at="2019-03-06T20:53:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFieldIsEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="141" started-at="2019-03-06T20:53:57 EET" finished-at="2019-03-06T20:53:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1451" started-at="2019-03-06T20:53:57 EET" finished-at="2019-03-06T20:53:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="592" started-at="2019-03-06T20:53:58 EET" finished-at="2019-03-06T20:53:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="coutryFieldAsteriskIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="coutryFieldAsteriskIsDisplayed" duration-ms="36" started-at="2019-03-06T20:53:59 EET" finished-at="2019-03-06T20:53:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coutryFieldAsteriskIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="182" started-at="2019-03-06T20:53:59 EET" finished-at="2019-03-06T20:53:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1647" started-at="2019-03-06T20:53:59 EET" finished-at="2019-03-06T20:54:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="556" started-at="2019-03-06T20:54:01 EET" finished-at="2019-03-06T20:54:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstructionEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstructionEditable" duration-ms="301" started-at="2019-03-06T20:54:01 EET" finished-at="2019-03-06T20:54:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstructionEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="120" started-at="2019-03-06T20:54:01 EET" finished-at="2019-03-06T20:54:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1610" started-at="2019-03-06T20:54:02 EET" finished-at="2019-03-06T20:54:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="719" started-at="2019-03-06T20:54:03 EET" finished-at="2019-03-06T20:54:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstructionEmptyFieldErrorMessage()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstructionEmptyFieldErrorMessage" duration-ms="292" started-at="2019-03-06T20:54:04 EET" finished-at="2019-03-06T20:54:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstructionEmptyFieldErrorMessage -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="127" started-at="2019-03-06T20:54:04 EET" finished-at="2019-03-06T20:54:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1605" started-at="2019-03-06T20:54:04 EET" finished-at="2019-03-06T20:54:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="634" started-at="2019-03-06T20:54:06 EET" finished-at="2019-03-06T20:54:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstructionFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstructionFieldIsDisplayed" duration-ms="50" started-at="2019-03-06T20:54:07 EET" finished-at="2019-03-06T20:54:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstructionFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="188" started-at="2019-03-06T20:54:07 EET" finished-at="2019-03-06T20:54:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1544" started-at="2019-03-06T20:54:07 EET" finished-at="2019-03-06T20:54:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="640" started-at="2019-03-06T20:54:08 EET" finished-at="2019-03-06T20:54:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstructionFieldIsMarkedAsterisk()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstructionFieldIsMarkedAsterisk" duration-ms="32" started-at="2019-03-06T20:54:09 EET" finished-at="2019-03-06T20:54:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstructionFieldIsMarkedAsterisk -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="183" started-at="2019-03-06T20:54:09 EET" finished-at="2019-03-06T20:54:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1410" started-at="2019-03-06T20:54:09 EET" finished-at="2019-03-06T20:54:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="634" started-at="2019-03-06T20:54:11 EET" finished-at="2019-03-06T20:54:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstructionIncorrectMessage()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstructionIncorrectMessage" duration-ms="434" started-at="2019-03-06T20:54:11 EET" finished-at="2019-03-06T20:54:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstructionIncorrectMessage -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="176" started-at="2019-03-06T20:54:12 EET" finished-at="2019-03-06T20:54:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1555" started-at="2019-03-06T20:54:12 EET" finished-at="2019-03-06T20:54:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="618" started-at="2019-03-06T20:54:13 EET" finished-at="2019-03-06T20:54:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="dateOfConstuctionValidField()[pri:0, instance:HotelPageTest@5dfcfece]" name="dateOfConstuctionValidField" duration-ms="183" started-at="2019-03-06T20:54:14 EET" finished-at="2019-03-06T20:54:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateOfConstuctionValidField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="178" started-at="2019-03-06T20:54:14 EET" finished-at="2019-03-06T20:54:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1456" started-at="2019-03-06T20:54:14 EET" finished-at="2019-03-06T20:54:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="581" started-at="2019-03-06T20:54:16 EET" finished-at="2019-03-06T20:54:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="descriptionAlphanumericCharacters()[pri:0, instance:HotelPageTest@5dfcfece]" name="descriptionAlphanumericCharacters" duration-ms="264" started-at="2019-03-06T20:54:16 EET" finished-at="2019-03-06T20:54:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionAlphanumericCharacters -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="122" started-at="2019-03-06T20:54:17 EET" finished-at="2019-03-06T20:54:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1494" started-at="2019-03-06T20:54:17 EET" finished-at="2019-03-06T20:54:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="648" started-at="2019-03-06T20:54:18 EET" finished-at="2019-03-06T20:54:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="descriptionFieldAsteriskIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="descriptionFieldAsteriskIsDisplayed" duration-ms="29" started-at="2019-03-06T20:54:19 EET" finished-at="2019-03-06T20:54:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionFieldAsteriskIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="201" started-at="2019-03-06T20:54:19 EET" finished-at="2019-03-06T20:54:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1571" started-at="2019-03-06T20:54:19 EET" finished-at="2019-03-06T20:54:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="592" started-at="2019-03-06T20:54:21 EET" finished-at="2019-03-06T20:54:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="descriptionFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="descriptionFieldIsDisplayed" duration-ms="30" started-at="2019-03-06T20:54:21 EET" description="Verify that user can add Description of new hotel" finished-at="2019-03-06T20:54:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="140" started-at="2019-03-06T20:54:21 EET" finished-at="2019-03-06T20:54:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1458" started-at="2019-03-06T20:54:22 EET" finished-at="2019-03-06T20:54:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="612" started-at="2019-03-06T20:54:23 EET" finished-at="2019-03-06T20:54:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="descriptionFieldIsEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="descriptionFieldIsEditable" duration-ms="305" started-at="2019-03-06T20:54:24 EET" finished-at="2019-03-06T20:54:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- descriptionFieldIsEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="136" started-at="2019-03-06T20:54:24 EET" finished-at="2019-03-06T20:54:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1454" started-at="2019-03-06T20:54:24 EET" finished-at="2019-03-06T20:54:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="617" started-at="2019-03-06T20:54:25 EET" finished-at="2019-03-06T20:54:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="globalRatingFieldAllowsHotelRating()[pri:0, instance:HotelPageTest@5dfcfece]" name="globalRatingFieldAllowsHotelRating" duration-ms="148" started-at="2019-03-06T20:54:26 EET" finished-at="2019-03-06T20:54:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalRatingFieldAllowsHotelRating -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="132" started-at="2019-03-06T20:54:26 EET" finished-at="2019-03-06T20:54:26 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1512" started-at="2019-03-06T20:54:26 EET" finished-at="2019-03-06T20:54:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="645" started-at="2019-03-06T20:54:28 EET" finished-at="2019-03-06T20:54:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="globalRatingFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="globalRatingFieldIsDisplayed" duration-ms="28" started-at="2019-03-06T20:54:29 EET" finished-at="2019-03-06T20:54:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalRatingFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="132" started-at="2019-03-06T20:54:29 EET" finished-at="2019-03-06T20:54:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1527" started-at="2019-03-06T20:54:29 EET" finished-at="2019-03-06T20:54:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="640" started-at="2019-03-06T20:54:30 EET" finished-at="2019-03-06T20:54:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isNotPossibleToEnterEmptyCityField()[pri:0, instance:HotelPageTest@5dfcfece]" name="isNotPossibleToEnterEmptyCityField" duration-ms="697" started-at="2019-03-06T20:54:31 EET" finished-at="2019-03-06T20:54:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotPossibleToEnterEmptyCityField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="137" started-at="2019-03-06T20:54:32 EET" finished-at="2019-03-06T20:54:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1421" started-at="2019-03-06T20:54:32 EET" finished-at="2019-03-06T20:54:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="610" started-at="2019-03-06T20:54:33 EET" finished-at="2019-03-06T20:54:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isNotPossibleToSaveEmptyDescription()[pri:0, instance:HotelPageTest@5dfcfece]" name="isNotPossibleToSaveEmptyDescription" duration-ms="255" started-at="2019-03-06T20:54:34 EET" finished-at="2019-03-06T20:54:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotPossibleToSaveEmptyDescription -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="183" started-at="2019-03-06T20:54:34 EET" finished-at="2019-03-06T20:54:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1416" started-at="2019-03-06T20:54:34 EET" finished-at="2019-03-06T20:54:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="595" started-at="2019-03-06T20:54:36 EET" finished-at="2019-03-06T20:54:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isNotPossibleToSaveEmptyField()[pri:0, instance:HotelPageTest@5dfcfece]" name="isNotPossibleToSaveEmptyField" duration-ms="463" started-at="2019-03-06T20:54:36 EET" finished-at="2019-03-06T20:54:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotPossibleToSaveEmptyField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="135" started-at="2019-03-06T20:54:37 EET" finished-at="2019-03-06T20:54:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1480" started-at="2019-03-06T20:54:37 EET" finished-at="2019-03-06T20:54:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="392" started-at="2019-03-06T20:54:38 EET" finished-at="2019-03-06T20:54:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isNotPossibleToSaveEmptyShortDescription()[pri:0, instance:HotelPageTest@5dfcfece]" name="isNotPossibleToSaveEmptyShortDescription" duration-ms="456" started-at="2019-03-06T20:54:39 EET" finished-at="2019-03-06T20:54:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNotPossibleToSaveEmptyShortDescription -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="140" started-at="2019-03-06T20:54:39 EET" finished-at="2019-03-06T20:54:39 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1478" started-at="2019-03-06T20:54:39 EET" finished-at="2019-03-06T20:54:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="585" started-at="2019-03-06T20:54:41 EET" finished-at="2019-03-06T20:54:41 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToEnterValidNameField()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToEnterValidNameField" duration-ms="1144" started-at="2019-03-06T20:54:41 EET" finished-at="2019-03-06T20:54:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToEnterValidNameField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="123" started-at="2019-03-06T20:54:42 EET" finished-at="2019-03-06T20:54:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1566" started-at="2019-03-06T20:54:43 EET" finished-at="2019-03-06T20:54:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="632" started-at="2019-03-06T20:54:44 EET" finished-at="2019-03-06T20:54:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToInputAlphanumericCharacters()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToInputAlphanumericCharacters" duration-ms="162" started-at="2019-03-06T20:54:45 EET" finished-at="2019-03-06T20:54:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToInputAlphanumericCharacters -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="128" started-at="2019-03-06T20:54:45 EET" finished-at="2019-03-06T20:54:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1552" started-at="2019-03-06T20:54:45 EET" finished-at="2019-03-06T20:54:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="616" started-at="2019-03-06T20:54:47 EET" finished-at="2019-03-06T20:54:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveEmptyNote()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveEmptyNote" duration-ms="391" started-at="2019-03-06T20:54:47 EET" finished-at="2019-03-06T20:54:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveEmptyNote -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="125" started-at="2019-03-06T20:54:48 EET" finished-at="2019-03-06T20:54:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1480" started-at="2019-03-06T20:54:48 EET" finished-at="2019-03-06T20:54:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="602" started-at="2019-03-06T20:54:49 EET" finished-at="2019-03-06T20:54:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveGlobalRatingField()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveGlobalRatingField" duration-ms="320" started-at="2019-03-06T20:54:50 EET" finished-at="2019-03-06T20:54:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveGlobalRatingField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="138" started-at="2019-03-06T20:54:50 EET" finished-at="2019-03-06T20:54:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1485" started-at="2019-03-06T20:54:50 EET" finished-at="2019-03-06T20:54:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="571" started-at="2019-03-06T20:54:52 EET" finished-at="2019-03-06T20:54:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="FAIL" signature="isPossibleToSaveValidCity()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidCity" duration-ms="197" started-at="2019-03-06T20:54:52 EET" finished-at="2019-03-06T20:54:53 EET">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MacBook-Pro-Konstantin.local', ip: 'fe80:0:0:0:1c05:45ab:b777:ed96%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 747b66fe121d4318d8ffcb9a2e135c25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MacBook-Pro-Konstantin.local', ip: 'fe80:0:0:0:1c05:45ab:b777:ed96%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 747b66fe121d4318d8ffcb9a2e135c25
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy7.click(Unknown Source)
+at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+at HotelPageTest.isPossibleToSaveValidCity(HotelPageTest.java:278)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at org.testng.TestRunner.privateRun(TestRunner.java:763)
+at org.testng.TestRunner.run(TestRunner.java:594)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+at org.testng.TestNG.runSuites(TestNG.java:997)
+at org.testng.TestNG.run(TestNG.java:965)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidCity -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="137" started-at="2019-03-06T20:54:53 EET" finished-at="2019-03-06T20:54:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1477" started-at="2019-03-06T20:54:53 EET" finished-at="2019-03-06T20:54:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="668" started-at="2019-03-06T20:54:54 EET" finished-at="2019-03-06T20:54:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveValidCountry()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidCountry" duration-ms="439" started-at="2019-03-06T20:54:55 EET" finished-at="2019-03-06T20:54:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidCountry -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="142" started-at="2019-03-06T20:54:55 EET" finished-at="2019-03-06T20:54:55 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1554" started-at="2019-03-06T20:54:55 EET" finished-at="2019-03-06T20:54:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="590" started-at="2019-03-06T20:54:57 EET" finished-at="2019-03-06T20:54:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveValidDescription()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidDescription" duration-ms="230" started-at="2019-03-06T20:54:58 EET" finished-at="2019-03-06T20:54:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidDescription -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="120" started-at="2019-03-06T20:54:58 EET" finished-at="2019-03-06T20:54:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1474" started-at="2019-03-06T20:54:58 EET" finished-at="2019-03-06T20:54:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="639" started-at="2019-03-06T20:54:59 EET" finished-at="2019-03-06T20:55:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveValidNotes()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidNotes" duration-ms="429" started-at="2019-03-06T20:55:00 EET" finished-at="2019-03-06T20:55:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidNotes -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="113" started-at="2019-03-06T20:55:00 EET" finished-at="2019-03-06T20:55:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1513" started-at="2019-03-06T20:55:01 EET" finished-at="2019-03-06T20:55:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="619" started-at="2019-03-06T20:55:02 EET" finished-at="2019-03-06T20:55:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveValidRatingField()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidRatingField" duration-ms="315" started-at="2019-03-06T20:55:03 EET" finished-at="2019-03-06T20:55:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidRatingField -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="185" started-at="2019-03-06T20:55:03 EET" finished-at="2019-03-06T20:55:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1513" started-at="2019-03-06T20:55:03 EET" finished-at="2019-03-06T20:55:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="619" started-at="2019-03-06T20:55:05 EET" finished-at="2019-03-06T20:55:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="isPossibleToSaveValidShortDescription()[pri:0, instance:HotelPageTest@5dfcfece]" name="isPossibleToSaveValidShortDescription" duration-ms="417" started-at="2019-03-06T20:55:05 EET" finished-at="2019-03-06T20:55:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPossibleToSaveValidShortDescription -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="121" started-at="2019-03-06T20:55:06 EET" finished-at="2019-03-06T20:55:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1482" started-at="2019-03-06T20:55:06 EET" finished-at="2019-03-06T20:55:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="604" started-at="2019-03-06T20:55:07 EET" finished-at="2019-03-06T20:55:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="nameFieldDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="nameFieldDisplayed" duration-ms="283" started-at="2019-03-06T20:55:08 EET" finished-at="2019-03-06T20:55:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameFieldDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="132" started-at="2019-03-06T20:55:08 EET" finished-at="2019-03-06T20:55:08 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1450" started-at="2019-03-06T20:55:08 EET" finished-at="2019-03-06T20:55:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="615" started-at="2019-03-06T20:55:10 EET" finished-at="2019-03-06T20:55:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="nameFieldIsNotEmpty()[pri:0, instance:HotelPageTest@5dfcfece]" name="nameFieldIsNotEmpty" duration-ms="321" started-at="2019-03-06T20:55:10 EET" finished-at="2019-03-06T20:55:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameFieldIsNotEmpty -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="134" started-at="2019-03-06T20:55:11 EET" finished-at="2019-03-06T20:55:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1464" started-at="2019-03-06T20:55:11 EET" finished-at="2019-03-06T20:55:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="629" started-at="2019-03-06T20:55:12 EET" finished-at="2019-03-06T20:55:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="noteAlphanumericCharacters()[pri:0, instance:HotelPageTest@5dfcfece]" name="noteAlphanumericCharacters" duration-ms="239" started-at="2019-03-06T20:55:13 EET" finished-at="2019-03-06T20:55:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noteAlphanumericCharacters -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="187" started-at="2019-03-06T20:55:13 EET" finished-at="2019-03-06T20:55:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1484" started-at="2019-03-06T20:55:13 EET" finished-at="2019-03-06T20:55:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="600" started-at="2019-03-06T20:55:15 EET" finished-at="2019-03-06T20:55:15 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="noteFieldIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="noteFieldIsDisplayed" duration-ms="34" started-at="2019-03-06T20:55:15 EET" description="Verify that user can add Notes of new hotel" finished-at="2019-03-06T20:55:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noteFieldIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="134" started-at="2019-03-06T20:55:16 EET" finished-at="2019-03-06T20:55:16 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1499" started-at="2019-03-06T20:55:16 EET" finished-at="2019-03-06T20:55:17 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="578" started-at="2019-03-06T20:55:17 EET" finished-at="2019-03-06T20:55:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="notesIsEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="notesIsEditable" duration-ms="301" started-at="2019-03-06T20:55:18 EET" finished-at="2019-03-06T20:55:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notesIsEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="125" started-at="2019-03-06T20:55:18 EET" finished-at="2019-03-06T20:55:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1542" started-at="2019-03-06T20:55:18 EET" finished-at="2019-03-06T20:55:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="583" started-at="2019-03-06T20:55:20 EET" finished-at="2019-03-06T20:55:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="shortDescriptionAlphanumericCharacters()[pri:0, instance:HotelPageTest@5dfcfece]" name="shortDescriptionAlphanumericCharacters" duration-ms="165" started-at="2019-03-06T20:55:20 EET" finished-at="2019-03-06T20:55:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shortDescriptionAlphanumericCharacters -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="134" started-at="2019-03-06T20:55:20 EET" finished-at="2019-03-06T20:55:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1436" started-at="2019-03-06T20:55:21 EET" finished-at="2019-03-06T20:55:22 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="623" started-at="2019-03-06T20:55:22 EET" finished-at="2019-03-06T20:55:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="shortDescriptionAsteriskIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="shortDescriptionAsteriskIsDisplayed" duration-ms="34" started-at="2019-03-06T20:55:23 EET" finished-at="2019-03-06T20:55:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shortDescriptionAsteriskIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="189" started-at="2019-03-06T20:55:23 EET" finished-at="2019-03-06T20:55:23 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1451" started-at="2019-03-06T20:55:23 EET" finished-at="2019-03-06T20:55:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="599" started-at="2019-03-06T20:55:24 EET" finished-at="2019-03-06T20:55:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="shortDescriptionFieldIsEditable()[pri:0, instance:HotelPageTest@5dfcfece]" name="shortDescriptionFieldIsEditable" duration-ms="286" started-at="2019-03-06T20:55:25 EET" finished-at="2019-03-06T20:55:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shortDescriptionFieldIsEditable -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="131" started-at="2019-03-06T20:55:25 EET" finished-at="2019-03-06T20:55:25 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:HotelPageTest@5dfcfece]" name="setup" is-config="true" duration-ms="1529" started-at="2019-03-06T20:55:25 EET" finished-at="2019-03-06T20:55:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:HotelPageTest@5dfcfece]" name="startUp" is-config="true" duration-ms="609" started-at="2019-03-06T20:55:27 EET" finished-at="2019-03-06T20:55:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="shortDescriptionIsDisplayed()[pri:0, instance:HotelPageTest@5dfcfece]" name="shortDescriptionIsDisplayed" duration-ms="26" started-at="2019-03-06T20:55:27 EET" description="Verify that user can add Short Description of new hotel " finished-at="2019-03-06T20:55:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shortDescriptionIsDisplayed -->
+        <test-method status="PASS" signature="closeDown()[pri:0, instance:HotelPageTest@5dfcfece]" name="closeDown" is-config="true" duration-ms="131" started-at="2019-03-06T20:55:27 EET" finished-at="2019-03-06T20:55:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- HotelPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

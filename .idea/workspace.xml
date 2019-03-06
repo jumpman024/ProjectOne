@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5503ea70-94d9-423a-91b8-f48226e3f711" name="Default Changelist" comment="" />
+    <list default="true" id="5503ea70-94d9-423a-91b8-f48226e3f711" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,67 +19,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="164" column="18" lean-forward="true" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
+              <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3732#3733#0" expanded="true" />
-                <element signature="e#3773#3774#0" expanded="true" />
-                <element signature="e#3816#3817#0" expanded="true" />
-                <element signature="e#3860#3861#0" expanded="true" />
-                <element signature="e#3902#3903#0" expanded="true" />
-                <element signature="e#3945#3946#0" expanded="true" />
-                <element signature="e#3989#3990#0" expanded="true" />
-                <element signature="e#4035#4036#0" expanded="true" />
-                <element signature="e#4335#4336#0" expanded="true" />
-                <element signature="e#4384#4385#0" expanded="true" />
-                <element signature="e#4424#4425#0" expanded="true" />
-                <element signature="e#4469#4470#0" expanded="true" />
-                <element signature="e#6226#6227#0" expanded="true" />
-                <element signature="e#6278#6279#0" expanded="true" />
-                <element signature="e#6374#6375#0" expanded="true" />
-                <element signature="e#6412#6413#0" expanded="true" />
-                <element signature="e#6610#6611#0" expanded="true" />
-                <element signature="e#6663#6664#0" expanded="true" />
-                <element signature="e#7342#7343#0" expanded="true" />
-                <element signature="e#7405#7406#0" expanded="true" />
-                <element signature="e#7847#7848#0" expanded="true" />
-                <element signature="e#7874#7875#0" expanded="true" />
-                <element signature="e#8091#8092#0" expanded="true" />
-                <element signature="e#8133#8134#0" expanded="true" />
-                <element signature="e#8563#8564#0" expanded="true" />
-                <element signature="e#8608#8609#0" expanded="true" />
-                <element signature="e#9815#9816#0" expanded="true" />
-                <element signature="e#9856#9857#0" expanded="true" />
-                <element signature="e#10609#10610#0" expanded="true" />
-                <element signature="e#10654#10655#0" expanded="true" />
-                <element signature="e#10711#10712#0" expanded="true" />
-                <element signature="e#10760#10761#0" expanded="true" />
-                <element signature="e#11304#11305#0" expanded="true" />
-                <element signature="e#11342#11343#0" expanded="true" />
-                <element signature="e#11986#11987#0" expanded="true" />
-                <element signature="e#12043#12044#0" expanded="true" />
-                <element signature="e#12209#12210#0" expanded="true" />
-                <element signature="e#12255#12256#0" expanded="true" />
-                <element signature="e#12678#12679#0" expanded="true" />
-                <element signature="e#12742#12743#0" expanded="true" />
-                <element signature="e#12870#12871#0" expanded="true" />
-                <element signature="e#12908#12909#0" expanded="true" />
-                <element signature="e#13127#13128#0" expanded="true" />
-                <element signature="e#13173#13174#0" expanded="true" />
-                <element signature="e#13788#13789#0" expanded="true" />
-                <element signature="e#13833#13834#0" expanded="true" />
-                <element signature="e#13958#13959#0" expanded="true" />
-                <element signature="e#14000#14001#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -84,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-452">
+            <state relative-caret-position="1575">
               <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
+            <state relative-caret-position="660">
               <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HotelPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1042">
+            <state relative-caret-position="465">
               <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="255">
               <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -229,79 +175,41 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DiplomaProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DiplomaProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject1" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DiplomaProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DiplomaProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="DiplomaProject1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DiplomaProject1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DiplomaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DiplomaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,9 +250,17 @@
       </method>
     </configuration>
     <configuration name="MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DiplomaProject" />
+      <module name="DiplomaProject1" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -418,9 +334,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HotelPageTest_isPossibleToSaveValidNotes - 2019.03.03 at 19h 09m 35s.xml">
-      <configuration name="HotelPageTest.isPossibleToSaveValidNotes" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="HotelPageTest - 2019.03.03 at 19h 10m 49s.xml">
       <configuration name="HotelPageTest" configurationId="TestNG" />
     </history-entry>
@@ -448,11 +361,14 @@
     <history-entry file="MainPageTest - 2019.03.03 at 19h 38m 05s.xml">
       <configuration name="MainPageTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MainPageTest - 2019.03.06 at 20h 49m 56s.xml">
+      <configuration name="MainPageTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13376252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13519314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32950193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39846742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,7 +385,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32950193" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283767" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -538,6 +454,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="164" column="18" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -545,10 +482,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0-beta3/testng-7.0.0-beta3.jar!/org/testng/internal/TestInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9150">
           <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="88" selection-start-column="88" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,117 +528,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="88" selection-start-column="88" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HotelPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
+        <state relative-caret-position="465">
           <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/NavigationMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HotelPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="164" column="18" lean-forward="true" selection-start-line="164" selection-start-column="18" selection-end-line="164" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3732#3733#0" expanded="true" />
-            <element signature="e#3773#3774#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
-            <element signature="e#3902#3903#0" expanded="true" />
-            <element signature="e#3945#3946#0" expanded="true" />
-            <element signature="e#3989#3990#0" expanded="true" />
-            <element signature="e#4035#4036#0" expanded="true" />
-            <element signature="e#4335#4336#0" expanded="true" />
-            <element signature="e#4384#4385#0" expanded="true" />
-            <element signature="e#4424#4425#0" expanded="true" />
-            <element signature="e#4469#4470#0" expanded="true" />
-            <element signature="e#6226#6227#0" expanded="true" />
-            <element signature="e#6278#6279#0" expanded="true" />
-            <element signature="e#6374#6375#0" expanded="true" />
-            <element signature="e#6412#6413#0" expanded="true" />
-            <element signature="e#6610#6611#0" expanded="true" />
-            <element signature="e#6663#6664#0" expanded="true" />
-            <element signature="e#7342#7343#0" expanded="true" />
-            <element signature="e#7405#7406#0" expanded="true" />
-            <element signature="e#7847#7848#0" expanded="true" />
-            <element signature="e#7874#7875#0" expanded="true" />
-            <element signature="e#8091#8092#0" expanded="true" />
-            <element signature="e#8133#8134#0" expanded="true" />
-            <element signature="e#8563#8564#0" expanded="true" />
-            <element signature="e#8608#8609#0" expanded="true" />
-            <element signature="e#9815#9816#0" expanded="true" />
-            <element signature="e#9856#9857#0" expanded="true" />
-            <element signature="e#10609#10610#0" expanded="true" />
-            <element signature="e#10654#10655#0" expanded="true" />
-            <element signature="e#10711#10712#0" expanded="true" />
-            <element signature="e#10760#10761#0" expanded="true" />
-            <element signature="e#11304#11305#0" expanded="true" />
-            <element signature="e#11342#11343#0" expanded="true" />
-            <element signature="e#11986#11987#0" expanded="true" />
-            <element signature="e#12043#12044#0" expanded="true" />
-            <element signature="e#12209#12210#0" expanded="true" />
-            <element signature="e#12255#12256#0" expanded="true" />
-            <element signature="e#12678#12679#0" expanded="true" />
-            <element signature="e#12742#12743#0" expanded="true" />
-            <element signature="e#12870#12871#0" expanded="true" />
-            <element signature="e#12908#12909#0" expanded="true" />
-            <element signature="e#13127#13128#0" expanded="true" />
-            <element signature="e#13173#13174#0" expanded="true" />
-            <element signature="e#13788#13789#0" expanded="true" />
-            <element signature="e#13833#13834#0" expanded="true" />
-            <element signature="e#13958#13959#0" expanded="true" />
-            <element signature="e#14000#14001#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -728,7 +590,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>DiplomaProject</last-edited>
+          <last-edited>DiplomaProject1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

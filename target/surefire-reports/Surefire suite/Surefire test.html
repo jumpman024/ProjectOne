@@ -1,0 +1,482 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 06 20:53:43 EET 2019</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111827 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HotelPageTest.cityFieldIsEditable()'><b>cityFieldIsEditable</b><br>Test class: HotelPageTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Pro-Konstantin.local&apos;, ip: &apos;fe80:0:0:0:1c05:45ab:b777:ed96%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50051}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 934d11a44ad6e4338464ef5906224ae4
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+	at HotelPageTest.cityFieldIsEditable(HotelPageTest.java:253)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace916835004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace916835004'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Pro-Konstantin.local&apos;, ip: &apos;fe80:0:0:0:1c05:45ab:b777:ed96%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50051}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 934d11a44ad6e4338464ef5906224ae4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+	at HotelPageTest.cityFieldIsEditable(HotelPageTest.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.TestRunner.privateRun(TestRunner.java:763)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.runSuites(TestNG.java:997)
+	at org.testng.TestNG.run(TestNG.java:965)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidCity()'><b>isPossibleToSaveValidCity</b><br>Test class: HotelPageTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Pro-Konstantin.local&apos;, ip: &apos;fe80:0:0:0:1c05:45ab:b777:ed96%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 747b66fe121d4318d8ffcb9a2e135c25
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+	at HotelPageTest.isPossibleToSaveValidCity(HotelPageTest.java:278)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace167275971", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace167275971'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;MacBook-Pro-Konstantin.local&apos;, ip: &apos;fe80:0:0:0:1c05:45ab:b777:ed96%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628411 (3324f4c8be9ff2..., userDataDir: /var/folders/1r/wjzc4zts3sb...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50911}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 747b66fe121d4318d8ffcb9a2e135c25
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at pages.HotelPage.clickCitySelect(HotelPage.java:228)
+	at HotelPageTest.isPossibleToSaveValidCity(HotelPageTest.java:278)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.TestRunner.privateRun(TestRunner.java:763)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:398)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.runSuites(TestNG.java:997)
+	at org.testng.TestNG.run(TestNG.java:965)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:147)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='HotelPageTest.cityFieldAsteriskIsDisplayed()'><b>cityFieldAsteriskIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.cityFieldIsDisplayed()'><b>cityFieldIsDisplayed</b><br>Test class: HotelPageTest<br>Test method: Verify that user can add City of new hotel</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.countryFieldIsDisplayed()'><b>countryFieldIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.countryFieldIsEditable()'><b>countryFieldIsEditable</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.coutryFieldAsteriskIsDisplayed()'><b>coutryFieldAsteriskIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='MainPageTest.dataSectionIsDisplayed()'><b>dataSectionIsDisplayed</b><br>Test class: MainPageTest</td>
+<td></td>
+<td>0</td>
+<td>MainPageTest@23ceabc1</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstructionEditable()'><b>dateOfConstructionEditable</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstructionEmptyFieldErrorMessage()'><b>dateOfConstructionEmptyFieldErrorMessage</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstructionFieldIsDisplayed()'><b>dateOfConstructionFieldIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstructionFieldIsMarkedAsterisk()'><b>dateOfConstructionFieldIsMarkedAsterisk</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstructionIncorrectMessage()'><b>dateOfConstructionIncorrectMessage</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.dateOfConstuctionValidField()'><b>dateOfConstuctionValidField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.descriptionAlphanumericCharacters()'><b>descriptionAlphanumericCharacters</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.descriptionFieldAsteriskIsDisplayed()'><b>descriptionFieldAsteriskIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.descriptionFieldIsDisplayed()'><b>descriptionFieldIsDisplayed</b><br>Test class: HotelPageTest<br>Test method: Verify that user can add Description of new hotel</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.descriptionFieldIsEditable()'><b>descriptionFieldIsEditable</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.globalRatingFieldAllowsHotelRating()'><b>globalRatingFieldAllowsHotelRating</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.globalRatingFieldIsDisplayed()'><b>globalRatingFieldIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isNotPossibleToEnterEmptyCityField()'><b>isNotPossibleToEnterEmptyCityField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isNotPossibleToSaveEmptyDescription()'><b>isNotPossibleToSaveEmptyDescription</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isNotPossibleToSaveEmptyField()'><b>isNotPossibleToSaveEmptyField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isNotPossibleToSaveEmptyShortDescription()'><b>isNotPossibleToSaveEmptyShortDescription</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToEnterValidNameField()'><b>isPossibleToEnterValidNameField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>1</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToInputAlphanumericCharacters()'><b>isPossibleToInputAlphanumericCharacters</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveEmptyNote()'><b>isPossibleToSaveEmptyNote</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveGlobalRatingField()'><b>isPossibleToSaveGlobalRatingField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidCountry()'><b>isPossibleToSaveValidCountry</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidDescription()'><b>isPossibleToSaveValidDescription</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidNotes()'><b>isPossibleToSaveValidNotes</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidRatingField()'><b>isPossibleToSaveValidRatingField</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.isPossibleToSaveValidShortDescription()'><b>isPossibleToSaveValidShortDescription</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.nameFieldDisplayed()'><b>nameFieldDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.nameFieldIsNotEmpty()'><b>nameFieldIsNotEmpty</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.noteAlphanumericCharacters()'><b>noteAlphanumericCharacters</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.noteFieldIsDisplayed()'><b>noteFieldIsDisplayed</b><br>Test class: HotelPageTest<br>Test method: Verify that user can add Notes of new hotel</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.notesIsEditable()'><b>notesIsEditable</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='MainPageTest.registerHotelPageIsDisplayed()'><b>registerHotelPageIsDisplayed</b><br>Test class: MainPageTest<br>Test method: Verify that user can open New Hotel page:</td>
+<td></td>
+<td>0</td>
+<td>MainPageTest@23ceabc1</td></tr>
+<tr>
+<td title='MainPageTest.saveButtonIsDisplayed()'><b>saveButtonIsDisplayed</b><br>Test class: MainPageTest</td>
+<td></td>
+<td>0</td>
+<td>MainPageTest@23ceabc1</td></tr>
+<tr>
+<td title='HotelPageTest.shortDescriptionAlphanumericCharacters()'><b>shortDescriptionAlphanumericCharacters</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.shortDescriptionAsteriskIsDisplayed()'><b>shortDescriptionAsteriskIsDisplayed</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.shortDescriptionFieldIsEditable()'><b>shortDescriptionFieldIsEditable</b><br>Test class: HotelPageTest</td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+<tr>
+<td title='HotelPageTest.shortDescriptionIsDisplayed()'><b>shortDescriptionIsDisplayed</b><br>Test class: HotelPageTest<br>Test method: Verify that user can add Short Description of new hotel </td>
+<td></td>
+<td>0</td>
+<td>HotelPageTest@5dfcfece</td></tr>
+</table><p>
+</body>
+</html>
