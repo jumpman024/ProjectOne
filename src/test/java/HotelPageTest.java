@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.HotelPage;
 import pages.NavigationMenu;
-import sun.jvm.hotspot.jdi.StackFrameImpl;
+//import sun.jvm.hotspot.jdi.StackFrameImpl;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
