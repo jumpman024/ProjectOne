@@ -5,6 +5,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import utils.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 import java.util.Properties;
@@ -16,7 +18,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", config.getProperty("chromedriver"));
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
